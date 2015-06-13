@@ -1,0 +1,88 @@
+figure {
+  font-family: sans-serif;
+  height: 100%;
+  width: 300px;
+  margin: 10px auto;
+  background-image: url("Background.PNG");
+  padding: 20px 0 0 0;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 15px;
+}
+
+figure .Tags {
+  display: flex;
+  margin: 30px 0 0 0;
+}
+
+figure .Tags a {
+  flex: 1;
+  padding: 5px;
+  background-color: #C2C2C2;
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+}
+
+figure .Tags a.Twitter {
+  background-color: #55acee;
+}
+
+figure .Tags a.Twitter:hover {
+  background-color: #8AC0EA;
+}
+
+figure .Tags a.Github {
+  background-color: #333;
+}
+
+figure .Tags a.Github:hover {
+  background-color: #C2C2C2;
+}
+
+figure .Tags a.Youtube {
+  background-color: #CC181E;
+}
+
+figure .Tags a.Youtube:Hover {
+  background-color: #DA5B5F;
+}
+
+figure .Tags a.Podcast {
+  background-color: #9967A7;
+}
+
+figure .Tags a.Podcast:hover {
+  background-color: #B57DC6;
+}
+
+figure .Tags a:hover {
+  background-color: #C9C9C9;
+}
+
+figure img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+figure header {
+  display: block;
+}
+
+figure header h3 {
+  color: #667788;
+}
+
+figure header span {
+  color: #5e9516;
+  font-weight: bold;
+}
+
+figure caption {
+  display: block;
+}

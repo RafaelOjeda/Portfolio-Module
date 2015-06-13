@@ -1,0 +1,72 @@
+figure {
+  font-family: sans-serif;
+  height: 100%;
+  width: 300px;
+  margin: 10px auto;
+  background-image: url('Background.PNG');
+  padding: 20px 0 0 0;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 15px;
+  .Tags {
+    display: flex;
+    margin: 30px 0 0 0;
+    a {
+      flex: 1;
+      padding: 5px;
+      background-color: #C2C2C2;
+      text-decoration: none;
+      color: #FFF;
+      font-weight: bold;
+      &.Twitter {
+        background-color: #55acee;
+        &:hover {
+          background-color: #8AC0EA;
+        }
+      }
+      &.Github {
+        background-color: #333;
+        &:hover {
+          background-color: #C2C2C2;
+        }
+      }
+      &.Youtube {
+        background-color: #CC181E;
+        &:Hover {
+          background-color: #DA5B5F;
+        }
+      }
+      &.Podcast {
+        background-color: #9967A7;
+        &:hover {
+          background-color: #B57DC6;
+        }
+      }
+      &:hover {
+        background-color: #C9C9C9;
+      }
+    }
+  }
+  img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    display: block;
+    vertical-align: middle;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  header {
+    display: block;
+    h3 {
+      color: #667788;
+    }
+    span {
+      color: #5e9516;
+      font-weight: bold;
+    }
+  }
+  caption {
+    display: block;
+  }
+}
